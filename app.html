@@ -23,11 +23,13 @@
         }
         // 根据不同的终端，跳转到不同的地址
         if(Terminal.platform.iPad){//iPad端
-            document.write('抱歉，“来考教师”暂时没有iPad版APP!');
+            document.write('抱歉，“园师课堂”暂时没有iPad版APP!');
         } else if(Terminal.platform.iPhone){
-            location.href = 'https://itunes.apple.com/us/app/来考教师/id1182649054?l=zh&ls=1&mt=8';
+            document.write('抱歉，“园师课堂”暂时没有ios版APP!');
+//             location.href = 'https://itunes.apple.com/us/app/来考教师/id1182649054?l=zh&ls=1&mt=8';
         }else{
-            location.href = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.elaikao.lkjs';
+            document.write('抱歉，“园师课堂”暂时没有APP!');
+//             location.href = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.elaikao.lkjs';
         }
     </script>
 </head>
