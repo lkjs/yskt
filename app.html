@@ -24,9 +24,8 @@
         // 根据不同的终端，跳转到不同的地址
         if(Terminal.platform.iPad){//iPad端
             document.write(new String("抱歉，育德教师暂时没有iPad版APP!").fontsize(6));
-        } else if(Terminal.platform.iPhone){//ios端
-            document.write(new String("抱歉，育德教师暂时没有ios版APP!").fontsize(6));
-//             location.href = 'https://itunes.apple.com/us/app/来考教师/id1182649054?l=zh&ls=1&mt=8';
+        } else if(Terminal.platform.iPhone){//ios
+            location.href = 'https://itunes.apple.com/cn/app/%E8%82%B2%E5%BE%B7%E6%95%99%E5%B8%88/id1445823805?mt=8';
         }else{
             location.href = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.ysedu.ydjs';
         }
